@@ -1,8 +1,10 @@
 #### Preamble ####
-# Purpose: Tests the cleaned data
-# Author: Lin Dai
-# Date: 9 March 2024
-# Contact: dailin20000730@gmail.com
+# Purpose: Test data
+# Author: Pengyu Sui, Lin Dai
+# Date: 10 March 2024
+# Contact: pengyu.sui@mail.utoronto.ca, dailin20000730@gmail.com
+# License: MIT
+# Prerequisites: none
 
 #### Import data ####
 
