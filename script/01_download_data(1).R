@@ -1,6 +1,6 @@
 #### Preamble ####
 # Purpose: Download data
-# Author: Pengyu Sui
+# Author: Pengyu Sui, Lin Dai
 # Date: 10 March 2024
 # Contact: pengyu.sui@mail.utoronto.ca
 # License: MIT
