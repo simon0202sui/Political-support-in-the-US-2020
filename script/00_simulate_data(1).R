@@ -87,3 +87,5 @@ ggplot(simulated_data, aes(x = factor(gender, labels = c('Male', 'Female')), fil
   theme(plot.title = element_text(hjust = 0.5),
         axis.text.x = element_text(angle = 0, hjust = 0.5))
 
+# Dowwnload CSV file
+write.csv(simulated_data, "simulated_data.csv", row.names = FALSE)
