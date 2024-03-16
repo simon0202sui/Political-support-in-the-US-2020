@@ -1,0 +1,7 @@
+Because of the raw data is bigger than 800MB and can not be upload on the github. I will show the link of the download the data.
+
+file name: CES20_Common_OUTPUT_vv.csv
+Link: <https://dataverse.harvard.edu/file.xhtml?fileId=4949558&version=4.0>
+
+file name: CES20_Common_OUTPUT_vv.dta
+Link: <https://dataverse.harvard.edu/file.xhtml?fileId=4949545&version=4.0>
