@@ -1,3 +1,11 @@
+#### Preamble ####
+# Purpose: Model
+# Author: Pengyu Sui, Lin Dai
+# Date: 10 March 2024
+# Contact: pengyu.sui@mail.utoronto.ca, dailin20000730@gmail.com
+# License: MIT
+# Prerequisites: none
+
 #### Workspace setup ####
 library(tidyverse)        # For data manipulation
 library(rstanarm)         # For Bayesian regression models
