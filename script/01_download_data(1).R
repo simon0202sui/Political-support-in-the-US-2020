@@ -2,7 +2,7 @@
 # Purpose: Download data
 # Author: Pengyu Sui, Lin Dai
 # Date: 10 March 2024
-# Contact: pengyu.sui@mail.utoronto.ca
+# Contact: pengyu.sui@mail.utoronto.ca, dailin20000730@gmail.com
 # License: MIT
 # Prerequisites: none
 
