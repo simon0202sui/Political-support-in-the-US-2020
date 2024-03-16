@@ -136,6 +136,24 @@ plot_race_gender
 
 ## Variables
 
+There have 2 file each are clean data and simulated data, for each two file are both csv file. In the cleaned data has 7 variables, each are vote_intention, support_biden, party, education, race, age_group, gender. In the simulated data has 4 variables, each are race, age_group, gender, support biden. Because of the raw data is 800MB with 1000+ variable, it will not list each one here. You can find the variable statement in the /other/guide.
+
+[Clean data]{.underline}
+
+-   vote_intention, (1-Yes, 2-No, 3-other) (num)
+-   support_biden, (No, Yes, Other) (char)
+-   party, (Democratic, Republican, other) (char)
+-   education, (No HS, High school, College, Postgrad, other) (char)
+-   race, (White, Black, American Indian, Asian, Other)
+-   age_group(18~39, 31-61, 62-95) (char)
+-   gender (Male, Female) (char)
+
+[Clean data]{.underline}
+
+-   race, (White, Black, American Indian, Asian, Other) (char)
+-   age_group, ('18-30', '31-61', '62-95') (char)
+-   gender (Male, Female) (char)
+
 ## Measurement
 
 
