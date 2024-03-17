@@ -1,6 +1,6 @@
 
 #Load work space
-
+library(readr)
 library(ggplot2)
 library(patchwork)
 cleaned_data_survey <- read_csv("outputs/clean_data/data_cleaned(1).csv")
@@ -29,9 +29,10 @@ combined_plot1
 
 #Plot 2 combine (age)
 
-plot3 <- ggplot(cleaned_data_survey, aes(x = age_group, y = ..count.., group = support_biden, color = support_biden)) +
-  geom_line(stat = "count") +
-  labs(title = "Support for Biden Trend by Age Group", x = "Age Group", y = "Count", color = "Support for Biden") +
+plot3 <- ggplot(cleaned_data_survey, aes(x = age_group, fill = support_biden)) +
+  geom_bar(position = "fill") +
+  scale_fill_manual(values = c('Yes' = 'blue', 'No' = 'red')) +
+  labs(title = "Support for Biden by Age Group", x = "Age Group", y = "Proportion of Support") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
         axis.text.x = element_text(angle = 45, hjust = 1))

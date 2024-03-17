@@ -19,6 +19,15 @@ ggplot(cleaned_data_survey, aes(x = education, fill = support_biden)) +
   theme(plot.title = element_text(hjust = 0.5),
         axis.text.x = element_text(angle = 45, hjust = 1))
 
+ggplot(cleaned_data_survey, aes(x = education, y = support_biden, fill = support_biden)) +
+  geom_jitter(position = position_jitter(width = 0.2), size = 3) +
+  scale_fill_manual(values = c('Yes' = 'blue', 'No' = 'red')) +
+  labs(title = "Support for Biden Trend by Education Level", x = "Education Level", y = "Support for Biden") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5),
+        axis.text.x = element_text(angle = 45, hjust = 1))
+
+
 # Visualization: Support for Biden by Race
 ggplot(cleaned_data_survey, aes(x = race, fill = support_biden)) +
   geom_bar(position = "fill", color = "black") +
@@ -28,6 +37,15 @@ ggplot(cleaned_data_survey, aes(x = race, fill = support_biden)) +
   theme(plot.title = element_text(hjust = 0.5),
         axis.text.x = element_text(angle = 45, hjust = 1))
 
+ggplot(cleaned_data_survey, aes(x = race, y = support_biden, fill = support_biden)) +
+  geom_jitter(position = position_jitter(width = 0.2), size = 3, color = "black") +
+  scale_fill_manual(values = c('Yes' = 'blue', 'No' = 'red')) +
+  labs(title = "Support for Biden by Race", x = "Race", y = "Support for Biden") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5),
+        axis.text.x = element_text(angle = 45, hjust = 1))
+
+
 # Visualization: Support for Biden by Gender
 ggplot(cleaned_data_survey, aes(x = gender, fill = support_biden)) +
   geom_bar(position = "fill", color = "black") +
@@ -36,4 +54,13 @@ ggplot(cleaned_data_survey, aes(x = gender, fill = support_biden)) +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
         axis.text.x = element_text(angle = 0, hjust = 0.5))
+
+ggplot(cleaned_data_survey, aes(x = race, y = support_biden, fill = support_biden)) +
+  geom_jitter(position = position_jitter(width = 0.2), size = 3, color = "black") +
+  scale_fill_manual(values = c('Yes' = 'blue', 'No' = 'red')) +
+  labs(title = "Support for Biden by Race", x = "Race", y = "Support for Biden") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5),
+        axis.text.x = element_text(angle = 45, hjust = 1))
+
 
